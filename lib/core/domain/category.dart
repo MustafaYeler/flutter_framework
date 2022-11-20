@@ -6,7 +6,7 @@ class Category extends BaseEntity {
   factory Category.fromJson(Map<String, dynamic> json) {
     return Category(
       id: json["id"],
-      name: json["adi"],
+      name: json["name"],
       
     );
   }

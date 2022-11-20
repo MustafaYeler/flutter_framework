@@ -8,6 +8,7 @@ class CategoryController {
   void getCategoriesFromApi(){
     CategoryRepository().getCategoriesFromApi().then((value) => (){
       categoryList = value;
+      
     });
 
   }
